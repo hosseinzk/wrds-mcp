@@ -1,0 +1,28 @@
+{
+  "name": "wrds",
+  "version": "0.1.0",
+  "description": "Search WRDS (Wharton Research Data Services), check whether data exists, and pull company data with the WRDS AI policy enforced",
+  "author": {
+    "name": "Hossein Zakariaee"
+  },
+  "keywords": [
+    "wrds",
+    "compustat",
+    "crsp",
+    "finance",
+    "research",
+    "data"
+  ],
+  "mcpServers": {
+    "wrds": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--quiet",
+        "--project",
+        "${CLAUDE_PLUGIN_ROOT}",
+        "wrds-mcp"
+      ]
+    }
+  }
+}

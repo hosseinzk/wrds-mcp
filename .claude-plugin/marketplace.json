@@ -1,0 +1,16 @@
+{
+  "name": "wrds-tools",
+  "owner": {
+    "name": "Hossein Zakariaee"
+  },
+  "metadata": {
+    "description": "Claude tools for WRDS (Wharton Research Data Services) research"
+  },
+  "plugins": [
+    {
+      "name": "wrds",
+      "source": "./",
+      "description": "Search WRDS, check data availability, and pull company data with the WRDS AI policy enforced"
+    }
+  ]
+}
